@@ -56,10 +56,11 @@ section article p {
 
 .regalo {
   margin: 1rem;
+  border: none;
 }
 
 footer {
-  background-color: #222;
+  background-color: #59252e;
   padding: 3rem;
   color: #fff;
 }
