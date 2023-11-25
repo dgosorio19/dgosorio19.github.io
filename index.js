@@ -93,14 +93,14 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 document.addEventListener('DOMContentLoaded', function () {
-  const targetDate = new Date('2023-11-25T11:30:00+01:00')
+  const targetDate = new Date('2023-11-25T12:30:00+01:00')
   const currentTime = new Date()
   function handleLinkClick(event) {
     event.preventDefault()
     if (currentTime >= targetDate) {
       window.location.href = event.target.href
     } else {
-      alert('Regalo disponible después de las 11:30 AM.')
+      alert('Regalo disponible después de las 12:30 AM.')
     }
   }
   const restrictedLinkFive = document.getElementById('restrictedLinkFive')
