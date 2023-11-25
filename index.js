@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 document.addEventListener('DOMContentLoaded', function () {
-  const targetDate = new Date('2023-11-25T:09:00+01:00')
+  const targetDate = new Date('2023-11-25T:08:00+01:00')
   const currentTime = new Date()
   function handleLinkClick(event) {
     event.preventDefault()
